@@ -2,7 +2,7 @@ import React from 'react';
 
 const Vision = () => {
   return (
-    <div className="min-h-screen bg-gray-50 p-8 sm:pt-0">
+    <div className="min-h-screen bg-teal-500 p-8 sm:pt-0">
       <div className="max-w-7xl mx-auto">
         {/* Main Container */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
