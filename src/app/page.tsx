@@ -22,9 +22,10 @@ export default function Home() {
       <Vision />
       <Goals />
       <StatisticsSection />
+  <PartnersSection />
       <CommunitiesSection />
       <Move />
-      <PartnersSection />
+    
       <Volunteer />
       <Footer />
     
