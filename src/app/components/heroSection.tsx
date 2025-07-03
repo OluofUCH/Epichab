@@ -72,7 +72,7 @@ const HeroSection = () => {
 
         {/* Hero Section */}
         <div className="px-8 py-16 sm:py-32 max-w-4xl">
-          <h1 className="text-white text-6xl font-bold leading-tight mb-6">
+          <h1 className="text-white text-6xl font-bold leading-tight p-6 mb-6">
             Epic Hub Solutions 
           </h1>
           <p className="text-white text-xl leading-relaxed max-w-2xl">
