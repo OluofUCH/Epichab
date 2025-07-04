@@ -2,24 +2,15 @@ import React from 'react';
 
 export default function Aboutus() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex-1 text-3xl text-black">About us</div>
-            <div className="flex items-center space-x-4">
-              <button className="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200 flex items-center space-x-2">
-                <span>→</span>
-                <span>Read more</span>
-              </button>
+    <div className=" bg-gray-50 pt-[2rem]">
+    
+ <div className="flex w-fit justify-start items-center px-4 py-[8px]  rounded-[8px] border border-[#E4E4E7] bg-[#F4FFFF] shadow-[0px_1px_3px_0px_rgba(25,33,61,0.10)]">
+            <h2 className="sm:text-sm px-4 sm:px-6 text-[14px] font-medium text-gray-600 uppercase tracking-wide">
+        ABOUT US
+        </h2>
             </div>
-          </div>
-        </div>
-      </header>
-
       {/* Main Content */}
-      <main className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-0 sm:pb-[5.62rem]">
         <div className=" rounded-lg  p-8 lg:p-12">
           <div className="max-w-4xl">
             <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-8 leading-tight">
@@ -36,6 +27,12 @@ This business operates in the healthcare and social support sector, specifically
           </p>
           </div>
         </div>
+        <div className="flex items-center space-x-4">
+              <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200 flex items-center space-x-2">
+                <span>→</span>
+                <span>Read more</span>
+              </button>
+            </div>
         </div>
       </main>
 

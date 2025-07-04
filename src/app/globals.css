@@ -35,4 +35,6 @@ footer {
  background-image:url('authImage.png');
     background-color: "rgba(8, 84, 142, 0.4)";
     background-blend-mode: "multiply";
+    background-size:cover;
+    background-position: center;
 }

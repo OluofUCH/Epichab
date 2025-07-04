@@ -11,7 +11,7 @@ const PartnersSection = () => {
         
         {/* Partners Grid */}
         <div className="flex  justify-center items-center gap-8 md:gap-12 lg:gap-16 overflow-hidden">
-          
+        
           {/* GFLAC Logo */}
           <div className="flex items-center justify-center h-20 w-40">
             <div className="flex items-center space-x-2">

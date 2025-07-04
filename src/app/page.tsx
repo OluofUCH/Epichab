@@ -16,18 +16,18 @@ export default function Home() {
   return (
     <main className="flex w-full  backdrop-blur-2xl min-h-screen flex-col  p-0">
       <Header />
-      <HeroSection />
+      <Action />
       <Aboutus />
       <Gell />
       <Vision />
       <Goals />
       <StatisticsSection />
+      <PartnersSection />
       <CommunitiesSection />
       <Move />
-      <PartnersSection />
       <Volunteer />
       <Footer />
-    
+     
     </main>
   );
 }

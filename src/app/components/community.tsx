@@ -3,9 +3,9 @@ export default function CommunitiesSection() {
     <div className="w-full">
       {/* Hero Image Section */}
       <div className="relative w-full h-80 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-green-900 to-green-700">
+        <div className="absolute inset-0 hero-gradient">
           {/* Simulated hands joining together image */}
-          <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+          <div className="absolute inset-0 bg-opacity-40 flex items-center justify-center">
             <div className="flex space-x-2">
               {/* Simulated hands - represented as overlapping circles */}
               <div className="w-16 h-16 bg-yellow-200 rounded-full opacity-80 transform rotate-12"></div>
@@ -17,14 +17,7 @@ export default function CommunitiesSection() {
           </div>
         </div>
         
-        {/* Green notification bell in bottom left */}
-        <div className="absolute bottom-4 left-4">
-          <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center shadow-lg">
-            <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"/>
-            </svg>
-          </div>
-        </div>
+        
       </div>
 
       {/* Content Section */}

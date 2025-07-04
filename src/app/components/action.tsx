@@ -49,9 +49,9 @@ export default function Action() {
             </div>
           </div>
           <div className="text-green-200 font-bold text-lg tracking-wide">
-            CAAF24
+            EpicHS
             <div className="text-xs text-green-300 font-normal tracking-wider">
-              CLIMATE ACTION AFRICA FORUM
+              EPIC HAB SOLUTIONS
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function Action() {
         <div className="max-w-4xl">
           <h1 className="text-white font-bold leading-tight mb-6">
             <span className="text-6xl md:text-7xl lg:text-8xl block mb-2">
-              #CAAF<span className="text-yellow-400">24</span>
+              EPIC<span className="text-yellow-400">24</span>
             </span>
             <span className="text-5xl md:text-6xl lg:text-7xl block mb-2">
               GREEN

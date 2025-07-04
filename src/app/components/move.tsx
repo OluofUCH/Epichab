@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Move() {
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-2/3 sm-1/2 overflow-hidden">
       {/* Background collage grid */}
       <div className="absolute inset-0 grid grid-cols-4 gap-0">
         {/* Left column - Woman with red braids */}
@@ -111,7 +111,7 @@ export default function Move() {
 
           {/* Main heading */}
           <h1 className="text-white text-5xl font-bold mb-8 leading-tight">
-            Faith for Action (F4CA)
+            Epic Hab Solutions (F4CA)
           </h1>
 
           {/* CTA Button */}

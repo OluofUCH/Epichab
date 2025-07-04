@@ -10,7 +10,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-teal-600 text-white px-8 py-16">
+    <footer className=" bg-gradient-to-br from-green-900/90 via-green-800/80 to-green-600/70 text-white px-8 py-16">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Logo and Social Media Section */}
@@ -86,7 +86,7 @@ export default function Footer() {
           </div>
 
           {/* Subscribe Section */}
-          <div>
+          {/* <div>
             <h3 className="text-xl font-semibold mb-6">Subscribe Now</h3>
             <p className="text-white mb-6">
               Don't miss our future updates! Get Subscribed Today!
@@ -101,7 +101,7 @@ export default function Footer() {
                 <Send size={20} className="text-white" />
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

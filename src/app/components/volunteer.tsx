@@ -2,12 +2,12 @@ import React from 'react';
 
 export default function Volunteer() {
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
+    <div className="py-8 bg-gray-50 flex items-center justify-center px-4">
       <div className="max-w-4xl w-full text-center">
         {/* Main Heading */}
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-8">
           Join the{' '}
-          <span className="text-teal-600">Climate Action Movement</span>
+          <span className="text-green-500">Climate Action Movement</span>
         </h1>
         
         {/* Subtitle */}
@@ -17,14 +17,14 @@ export default function Volunteer() {
         
         {/* Primary CTA Button */}
         <div className="mb-20">
-          <button className="bg-teal-600 hover:bg-teal-700 text-white font-semibold py-3 px-8 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
+          <button className="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
             Become a Volunteer!
           </button>
         </div>
         
         {/* Secondary CTA with Telegram Icon */}
         <div className="flex justify-center">
-          <button className="bg-teal-600 hover:bg-teal-700 text-white font-medium py-2.5 px-6 rounded-full text-sm transition-colors duration-200 flex items-center gap-2 shadow-md hover:shadow-lg">
+          <button className="bg-green-500 hover:bg-green-600 text-white font-medium py-2.5 px-6 rounded-full text-sm transition-colors duration-200 flex items-center gap-2 shadow-md hover:shadow-lg">
             <svg 
               className="w-4 h-4" 
               fill="currentColor" 
