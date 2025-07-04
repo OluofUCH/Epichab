@@ -60,7 +60,7 @@ export default function Goals() {
           {features.map((feature, index) => (
             <div key={index} className="relative">
               {/* Feature Card */}
-              <div className="rounded-[16px] px-[20px] py-[32px] hover:bg-[#E6FEFF] hover:outline-[#25CBCF] hover:outline-[0.4px] transition-all duration-200 h-full">
+              <div className="rounded-[16px] px-[20px] py-[32px] bg-[#E6FEFF] outline-[#25CBCF] outline-[0.4px] transition-all duration-200 h-full">
                 <div className="flex flex-col gap-[20px] h-full">
                   <div className="h-10 bg-[#F4FFFF] p-2 border border-[#ECFEFF] border-8px relative w-[1.5rem] aspect-[5.61381/1.1875] rounded-[28px] flex items-center justify-center">
                     O
