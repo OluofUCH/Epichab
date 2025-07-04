@@ -72,8 +72,8 @@ const HeroSection = () => {
 
         {/* Hero Section */}
         <div className="px-8 py-16 sm:py-32 max-w-4xl">
-          <h1 className="text-white text-6xl font-bold leading-tight mb-6">
-            Telling Africa's Climate Change Stories
+          <h1 className="text-white text-6xl font-bold leading-tight pt-6 mb-6">
+            Epic Hub Solutions 
           </h1>
           <p className="text-white text-xl leading-relaxed max-w-2xl">
             Discover how Climate Action Africa is making a difference through innovative projects, 
