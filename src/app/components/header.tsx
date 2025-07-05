@@ -38,7 +38,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-white w-full shadow-sm border-b border-gray-100 fixed top-0 right-0 left-0 z-50">
+    <header className="sticky top-0 z-50 w-full border-b border-black/10  backdrop-blur-md bg-white/80 ">
       <div className="max-w-full mx-auto lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -77,7 +77,7 @@ export default function Header() {
 
             <button
               onClick={toggleMenu}
-              className="md:hidden p-2 rounded-md text-[#0F7D7F] hover:text-gray-900 hover:bg-gray-100 transition-colors duration-200"
+              className="md:hidden p-2 rounded-md text-blue-500 hover:text-gray-900 hover:bg-gray-100 transition-colors duration-200"
             >
               {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
             </button>
@@ -85,30 +85,10 @@ export default function Header() {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden max-h-screen w-full top-0 left-0 fixed  bg-green-800 transition-all duration-400">
+          <div className={`md:hidden h-screen fixed inset-x-0 bg-white/95 dark:bg-black/95 backdrop-blur-mdtransition-all duration-300 ease-in-out${isMenuOpen ? 'top-0 sm:top-[61px] opacity-100 visible' : '-top-[100vh] opacity-0 invisible'}border-b border-black/10 dark:border-white/10
+      `}>
             <div className="flex flex-col justify-between h-full">
-              {/* Header with logo and close button */}
-              <div className="flex justify-between items-center h-16 py-4 px-6">
-                <Link href="/" className="flex items-center">
-                  <div className="flex-shrink-0">
-                    <div className="flex items-center ">
-                      <Image
-                        src="/next.svg"
-                        alt="Orthstart Logo"
-                        width={180}
-                        height={37}
-                        priority
-                      />
-                    </div>
-                  </div>
-                </Link>
-                <button
-                  onClick={toggleMenu}
-                  className="p-2 rounded-md text-white hover:bg-teal-500 transition-colors duration-200"
-                >
-                  <CircleX size={24} className="text-white" />
-                </button>
-              </div>
+            
               <div className="flex flex-col gap-16">
                 <div className="flex-1 flex flex-col justify-center items-center space-y-12 px-6">
                  

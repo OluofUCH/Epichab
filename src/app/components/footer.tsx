@@ -10,7 +10,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className=" bg-gradient-to-br from-green-900/90 via-green-800/80 to-green-600/70 text-white px-8 py-16">
+    <footer className=" bg-gradient-to-br from-blue-900/90 via-blue-800/80 to-blue-600/70 text-white px-8 py-16">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Logo and Social Media Section */}

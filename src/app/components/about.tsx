@@ -10,7 +10,7 @@ export default function Aboutus() {
         </h2>
             </div>
       {/* Main Content */}
-      <main className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-0 sm:pb-[5.62rem]">
+      <main className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-0 sm:pb-[1.62rem]">
         <div className=" rounded-lg  p-8 lg:p-12">
           <div className="max-w-4xl">
             <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-8 leading-tight">
@@ -28,7 +28,7 @@ This business operates in the healthcare and social support sector, specifically
           </div>
         </div>
         <div className="flex items-center space-x-4">
-              <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200 flex items-center space-x-2">
+              <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200 flex items-center space-x-2">
                 <span>→</span>
                 <span>Read more</span>
               </button>
