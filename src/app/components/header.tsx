@@ -18,7 +18,10 @@ export default function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
 
- 
+  const scrollToPath = () => {
+      setIsMenuOpen(false);
+    
+  };
 
    const navItems: INavItems[] = [
     { title: "Home", path: "/" },
@@ -52,7 +55,10 @@ export default function Header() {
                 key={index}
                 href={navItem.path}
                 className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm transition-colors duration-200"
-               
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToPath();
+                }}
               >
                 {navItem.title}
               </Link>
@@ -83,7 +89,10 @@ export default function Header() {
                 key={index}
                 href={navItem.path}
                 className="text-white text-xl font-medium hover:text-teal-100 transition-colors duration-200"
-                
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToPath();
+                }}
               >
                 {navItem.title}
               </Link>
