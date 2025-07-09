@@ -13,14 +13,13 @@ interface INavItems {
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const scrollToPath = () => {
+  const scrollToPath = (props: { path: string }) => {
       setIsMenuOpen(false);
-    
+      window.location.href=props.path
   };
 
    const navItems: INavItems[] = [
@@ -57,7 +56,7 @@ export default function Header() {
                 className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm transition-colors duration-200"
                 onClick={(e) => {
                   e.preventDefault();
-                  scrollToPath();
+                  scrollToPath({ path: navItem.path });
                 }}
               >
                 {navItem.title}
@@ -91,7 +90,7 @@ export default function Header() {
                 className="text-white text-xl font-medium hover:text-teal-100 transition-colors duration-200"
                 onClick={(e) => {
                   e.preventDefault();
-                  scrollToPath();
+                  scrollToPath({ path: navItem.path });
                 }}
               >
                 {navItem.title}
