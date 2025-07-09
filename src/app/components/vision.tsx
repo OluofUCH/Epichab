@@ -1,9 +1,6 @@
 import React from 'react';
 import Link from "next/link";
 const Vision = () => {
-  const route =()=>{
-    window.href.location="/services"
-  }
   return (
     <div className=" bg-gradient-to-r from-gray-800 to-gray-900  p-8 sm:pt-0  sm:pb-[5.62rem]">
       <div className="max-w-7xl mx-auto">
