@@ -44,7 +44,7 @@ const About = () => {
                   </div>
                   <div className="text-center">
                     <div className="text-4xl font-bold mb-2">50+</div>
-                    <div className="text-2xl">Professionals</div>
+                    <div className="text-sm">Professionals</div>
                   </div>
                   <div className="text-center">
                     <div className="text-4xl font-bold mb-2">5M+</div>
@@ -63,7 +63,7 @@ const About = () => {
 
       {/* Core Values Section */}
       <section className="py-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-8">
+        <div className="max-w-6xl mx-auto p-2 sm:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">
             Our Core Values
           </h2>

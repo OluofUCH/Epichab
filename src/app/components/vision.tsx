@@ -22,7 +22,7 @@ const Vision = () => {
 
        
    {/* Right Section - Climate Literacy and Advocacy */}
-          <div className="bg-white rounded-lg shadow-lg p-8 lg:col-span-1">
+          <div className="bg-white rounded-lg shadow-lg p-2 sm:p-8 lg:col-span-1">
             {/* Image placeholder */}
             <div className="mb-6">
               <img 

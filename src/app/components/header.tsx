@@ -28,12 +28,12 @@ export default function Header() {
   };
 
    const navItems: INavItems[] = [
-    { title: "Home", path: "#" },
-    { title: "About Us", path: "about" },
-    { title: "Services", path: "services" },
+    { title: "Home", path: "/" },
+    { title: "About Us", path: "/about" },
+    { title: "Services", path: "/services" },
     { title: "Referal", path: "#" },
     { title: "Careers", path: "#" },
-    { title: "Contact Us", path: "contact" },
+    { title: "Contact Us", path: "/contact" },
   ];
 
   return (
@@ -50,13 +50,7 @@ export default function Header() {
                   <div className="w-2 h-2 bg-black rounded-full"></div>
                 </div>
               </div>
-              <div className="text-black">
-                <div className="text-lg font-semibold">Epichub</div>
-                <div className="text-lg font-semibold">
-                  <span className="text-blue-400">solutions</span>
-                  <span className="text-xs ml-1">africa</span>
-                </div>
-              </div>
+              
             </div>
 
           <nav className="hidden md:flex space-x-8">
