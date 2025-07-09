@@ -1,8 +1,7 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
 
-export default function Goals() {
-  const features = [
+const ServicesSection = () => {
+   const features = [
     {
       icon: "",
       title: "Habilitation",
@@ -24,18 +23,48 @@ export default function Goals() {
       description:
         "Let patients see and choose between multiple plan options — like Pay in Full, Monthly, or No Down — in a clean, mobile-friendly format.",
       badge: null,
-    }
+    },
+    {
+      icon: "",
+      title: "Health & Safety Monitoring",
+      description:
+        "Track consults, follow-up responses, plan preferences, and signed starts — all in one place. Know what works, where patients drop off, and which TCs convert best.",
+      badge: null,
+    },
+    {
+      icon: "",
+      title: "Community Participation Assistance",
+      description:
+        "Generate a ready-to-sign treatment contract based on the selected plan. Patients can sign instantly from their phone or in-office.",
+      badge: null,
+    },
+    {
+      icon: "",
+      title: "24-hour Support (as needed)",
+      description:
+        "You're in control — Edit templates, Add/remove users, Customize branding & Scale across multiple locations.",
+      badge: null,
+    },
   ];
   return (
-  <section className='bg-[#FCFCFC] pt-6' id="Features">
-      <div className="pb-[2.62rem] flex flex-col gap-[40px]">
-      <div className="flex w-fit justify-start items-center px-4 py-[8px]  rounded-[8px] border border-[#E4E4E7] bg-[#F4FFFF] shadow-[0px_1px_3px_0px_rgba(25,33,61,0.10)]">
-            <h2 className="sm:text-sm text-[14px] font-medium text-gray-600 uppercase tracking-wide">
-         OUR FEATURES
-        </h2>
-            </div>
+    <div className="bg-gray-50 text-white">
+      <div className="max-w-6xl sm:max-w-full mx-auto">
+        {/* Header */}
+         <section className="relative min-h-[70dvh] w-full bg-gradient-to-br from-blue-900/90 via-blue-800/80 to-blue-600/70 flex items-center justify-center text-white">
+        <div className="absolute inset-0  bg-opacity-30"></div>
+        <div className="relative z-10 text-center px-8">
+          <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-wide">
+            Our Services
+          </h1>
+          <p className="text-xl md:text-2xl font-light max-w-2xl mx-auto leading-relaxed">
+            Join us in giving quality healthcare around the world, explore different cultures and lifestyles
+          </p>
+        </div>
+      </section>
+       
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl sm:max-w-full mx-auto  py-4 px-4">
+        {/* Services Grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl sm:max-w-full mx-auto  py-20 px-4">
           {/* Passenger Flights Card */}
           {features.map((feature, index) => (
           <div key={index} className="bg-gray-900 rounded-lg overflow-hidden">
@@ -67,16 +96,10 @@ export default function Goals() {
           ))}
          
         </div>
-         <div className="flex justify-between items-center space-x-4">
-              <Link href="/services" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200 flex items-center space-x-2">
-                <span>→</span>
-                <span>Read more</span>
-              </Link>
-              <div></div>
-            </div>
       </div>
-      
-       
-    </section>
+    </div>
   );
-}
+};
+
+export default ServicesSection;
+

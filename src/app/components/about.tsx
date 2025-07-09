@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 
 export default function Aboutus() {
   return (
@@ -28,10 +29,10 @@ This business operates in the healthcare and social support sector, specifically
           </div>
         </div>
         <div className="flex items-center space-x-4">
-              <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200 flex items-center space-x-2">
+              <Link href="/about" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors duration-200 flex items-center space-x-2">
                 <span>→</span>
                 <span>Read more</span>
-              </button>
+              </Link>
             </div>
         </div>
       </main>

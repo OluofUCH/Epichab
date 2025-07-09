@@ -2,10 +2,10 @@ import React from 'react';
 
 const PartnersSection = () => {
   return (
-    <div className="w-full py-16 px-4 bg-gray-50">
+    <div className="w-full py-4 px-4 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
-        <h2 className="text-4xl font-bold text-gray-800 text-center mb-16">
+        <h2 className="text-4xl font-bold text-gray-800 text-center mb-8">
           Our Partners
         </h2>
         

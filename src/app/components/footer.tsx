@@ -61,12 +61,12 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-semibold mb-6">Useful Links</h3>
             <nav className="space-y-4">
-              <a href="#" className="flex items-center text-white hover:text-orange-400 transition-colors">
+              <a href="/about" className="flex items-center text-white hover:text-orange-400 transition-colors">
                 About Us
                 <span className="ml-2 text-orange-400">▶</span>
               </a>
-              <a href="#" className="flex items-center text-white hover:text-orange-400 transition-colors">
-                Programs
+              <a href="services" className="flex items-center text-white hover:text-orange-400 transition-colors">
+                Services
                 <span className="ml-2 text-orange-400">▶</span>
               </a>
               <a href="#" className="block text-white hover:text-orange-400 transition-colors">
@@ -79,7 +79,7 @@ export default function Footer() {
               <a href="#" className="block text-white hover:text-orange-400 transition-colors">
                 Insights
               </a>
-              <a href="#" className="block text-white hover:text-orange-400 transition-colors">
+              <a href="/contact" className="block text-white hover:text-orange-400 transition-colors">
                 Contact
               </a>
             </nav>

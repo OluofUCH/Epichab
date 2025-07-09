@@ -15,7 +15,7 @@ import Volunteer from "@/app/components/volunteer";
 export default function Home() {
   return (
     <main className="flex w-full  backdrop-blur-2xl min-h-screen flex-col  p-0">
-      <Header />
+      {/* <Header /> */}
       <Action />
       <Aboutus />
       <Gell />
@@ -26,7 +26,7 @@ export default function Home() {
       <CommunitiesSection />
       <Move />
       <Volunteer />
-      <Footer />
+      {/* <Footer /> */}
      
     </main>
   );

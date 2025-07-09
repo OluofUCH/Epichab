@@ -9,7 +9,7 @@ import PryBtn from "./pryBtn";
 interface INavItems {
   path: string;
   title: string;
-}
+} 
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,33 +29,35 @@ export default function Header() {
 
    const navItems: INavItems[] = [
     { title: "Home", path: "#" },
-    { title: "About Us", path: "#" },
-    { title: "Services", path: "#" },
+    { title: "About Us", path: "about" },
+    { title: "Services", path: "services" },
     { title: "Referal", path: "#" },
     { title: "Careers", path: "#" },
-    { title: "Contact Us", path: "#" },
-    { title: "Services", path: "#" },
+    { title: "Contact Us", path: "contact" },
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-black/10  backdrop-blur-md bg-white/80 ">
+    <header className="sticky top-0 z-50 w-full border-b border-black/10  backdrop-blur-lg bg-white/80 ">
       <div className="max-w-full mx-auto lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <div className="flex">
-            <Link
-              href="/"
-              className="flex items-center relative w-[7rem] aspect-[5.61381/1.1875]"
-            > 
-            <Image
-                        src="next.svg"
-                        alt="Orthstart Logo"
-                        width={180}
-                        height={37}
-                        priority
-                      />
-            </Link>
-          </div>
+           {/* Logo */}
+            <div className="flex items-center space-x-2">
+              <div className="relative">
+                <div className="w-12 h-12 rounded-full border-2 border-black flex items-center justify-center">
+                  <div className="w-8 h-8 rounded-full bg-black opacity-20"></div>
+                </div>
+                <div className="absolute -top-1 -right-1 w-6 h-6 bg-blue-400 rounded-full flex items-center justify-center">
+                  <div className="w-2 h-2 bg-black rounded-full"></div>
+                </div>
+              </div>
+              <div className="text-black">
+                <div className="text-lg font-semibold">Epichub</div>
+                <div className="text-lg font-semibold">
+                  <span className="text-blue-400">solutions</span>
+                  <span className="text-xs ml-1">africa</span>
+                </div>
+              </div>
+            </div>
 
           <nav className="hidden md:flex space-x-8">
             {navItems.map((navItem, index) => (
@@ -90,7 +92,7 @@ export default function Header() {
             <div className="flex flex-col justify-between h-full">
             
               <div className="flex flex-col gap-16">
-                <div className="flex-1 flex flex-col justify-center items-center space-y-12 px-6">
+                <div className="flex-1 flex flex-col justify-center pt-4 items-center space-y-12 px-6">
                  
                   {navItems.map((navItem, index) => (
               <Link

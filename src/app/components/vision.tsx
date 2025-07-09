@@ -1,8 +1,11 @@
 import React from 'react';
-
+import Link from "next/link";
 const Vision = () => {
+  const route =()=>{
+    window.href.location="/services"
+  }
   return (
-    <div className=" bg-blue-500  p-8 sm:pt-0  sm:pb-[5.62rem]">
+    <div className=" bg-gradient-to-r from-gray-800 to-gray-900  p-8 sm:pt-0  sm:pb-[5.62rem]">
       <div className="max-w-7xl mx-auto">
         {/* Main Container */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:pt-6">
@@ -32,15 +35,15 @@ const Vision = () => {
               />
             </div>
             
-            <h2 className="text-3xl font-bold text-blue-600 mb-6">●	Residential support</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Residential support</h2>
             
             <p className="text-gray-700 leading-relaxed mb-8">
               We are passionate advocates and educators committed to educating and empowering Africans on climate change and innovative solutions.
             </p>
             
-            <button className="bg-blue-600 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
+             <Link href="/services" className="bg-gray-800 hover:bg-gray-500 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
               Read More
-            </button>
+            </Link>
           </div>
 
           {/* Right Section - Climate Literacy and Advocacy */}
@@ -54,15 +57,15 @@ const Vision = () => {
               />
             </div>
             
-            <h2 className="text-3xl font-bold text-blue-600 mb-6">●	Residential support</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">●	Life skills Training</h2>
             
             <p className="text-gray-700 leading-relaxed mb-8">
               We are passionate advocates and educators committed to educating and empowering Africans on climate change and innovative solutions.
             </p>
             
-            <button className="bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
+            <Link href="/services" className="bg-gray-800 hover:bg-gray-500 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
               Read More
-            </button>
+            </Link>
           </div>
         </div>
       </div>
