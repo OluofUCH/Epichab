@@ -1,16 +1,23 @@
-"use client"
+"use client";
 import React, { useState } from 'react';
 import { Phone, Clock, Mail, MapPin } from 'lucide-react';
 
-const ContactUs = () => {
-  const [formData, setFormData] = useState({
+interface FormData {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+}
+
+const ContactUs: React.FC = () => {
+  const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
     subject: '',
     message: ''
   });
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
@@ -18,7 +25,7 @@ const ContactUs = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLDivElement>) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
     // Handle form submission here
@@ -39,14 +46,14 @@ const ContactUs = () => {
         </div>
       </div>
 
-      {/* Contact Information Cards */}
+      {/* Contact Info Cards */}
       <div className="bg-blue-50 py-12">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Customer Support */}
             <div className="bg-white rounded-lg shadow-md p-6">
-                      <span className="text-blue-600 font-semibold">🇳🇬</span>
-                      <span className="text-blue-700">+234</span><h3 className="text-lg font-semibold text-gray-800 mb-4">Customer Support</h3>
+              <span className="text-blue-600 font-semibold">🇳🇬</span>
+              <span className="text-blue-700">+234</span>
+              <h3 className="text-lg font-semibold text-gray-800 mb-4">Customer Support</h3>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <Phone className="w-4 h-4 text-gray-600" />
@@ -59,7 +66,6 @@ const ContactUs = () => {
               </div>
             </div>
 
-            {/* Email Support */}
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-4">Email Support</h3>
               <div className="flex items-center space-x-3">
@@ -68,7 +74,6 @@ const ContactUs = () => {
               </div>
             </div>
 
-            {/* Head Office */}
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-4">Head Office</h3>
               <div className="space-y-3">
@@ -86,66 +91,55 @@ const ContactUs = () => {
         </div>
       </div>
 
-      {/* Contact Form and Map Section */}
+      {/* Contact Form and Map */}
       <div className="py-12">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Contact Form */}
             <div>
               <h2 className="text-2xl font-bold text-gray-800 mb-6">Get in touch with us</h2>
               <div className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-black">
-                  <div>
-                    <input
-                      type="text"
-                      name="name"
-                      placeholder="Your Name"
-                      value={formData.name}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    />
-                  </div>
-                  <div>
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Your Email"
-                      value={formData.email}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    />
-                  </div>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    value={formData.name}
+                    onChange={handleInputChange}
+                    className="w-full px-4 py-3 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    value={formData.email}
+                    onChange={handleInputChange}
+                    className="w-full px-4 py-3 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  />
                 </div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <input
-                      type="text"
-                      name="subject"
-                      placeholder="Subject"
-                      value={formData.subject}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border text-black border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    />
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <div className="flex items-center space-x-2 px-3 py-2 bg-gray-100 rounded-lg">
-                      <span className="text-green-600 font-semibold">🇳🇬</span>
-                      <span className="text-gray-700">+234</span>
-                    </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-black">
+                  <input
+                    type="text"
+                    name="subject"
+                    placeholder="Subject"
+                    value={formData.subject}
+                    onChange={handleInputChange}
+                    className="w-full px-4 py-3 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  />
+                  <div className="flex items-center space-x-2 px-3 py-2 bg-gray-100 rounded-lg">
+                    <span className="text-green-600 font-semibold">🇳🇬</span>
+                    <span className="text-gray-700">+234</span>
                   </div>
                 </div>
 
-                <div>
-                  <textarea
-                    name="message"
-                    placeholder="Message"
-                    rows={6}
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    className="w-full text-black px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent resize-none"
-                  ></textarea>
-                </div>
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  rows={6}
+                  value={formData.message}
+                  onChange={handleInputChange}
+                  className="w-full text-black px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent resize-none"
+                ></textarea>
 
                 <div
                   onClick={handleSubmit}
@@ -156,57 +150,49 @@ const ContactUs = () => {
               </div>
             </div>
 
-            {/* Map Section */}
-            <div>
-              <div className="bg-gray-100 rounded-lg h-96 relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-blue-200">
-                  {/* Map Header */}
-                  <div className="bg-white p-3 m-4 rounded-lg shadow-sm">
-                    <h3 className="font-semibold text-gray-800">Abuja Super International Airport</h3>
-                    <div className="flex items-center space-x-2 mt-1">
-                      <div className="flex space-x-1">
-                        <span className="text-yellow-400">★</span>
-                        <span className="text-yellow-400">★</span>
-                        <span className="text-yellow-400">★</span>
-                        <span className="text-yellow-400">★</span>
-                        <span className="text-gray-300">★</span>
+            {/* Fake Map */}
+            <div className="bg-gray-100 rounded-lg h-96 relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-blue-200">
+                <div className="bg-white p-3 m-4 rounded-lg shadow-sm">
+                  <h3 className="font-semibold text-gray-800">Abuja Super International Airport</h3>
+                  <div className="flex items-center space-x-2 mt-1">
+                    <div className="flex space-x-1">
+                      <span className="text-yellow-400">★</span>
+                      <span className="text-yellow-400">★</span>
+                      <span className="text-yellow-400">★</span>
+                      <span className="text-yellow-400">★</span>
+                      <span className="text-gray-300">★</span>
+                    </div>
+                    <span className="text-sm text-gray-600">4.2 · 3 Google reviews</span>
+                  </div>
+                </div>
+
+                <div className="relative h-full">
+                  <div className="absolute inset-0">
+                    <div className="absolute top-1/2 left-0 w-full h-1 bg-gray-400 transform -translate-y-1/2"></div>
+                    <div className="absolute top-0 left-1/2 w-1 h-full bg-gray-400 transform -translate-x-1/2"></div>
+                    <div className="absolute top-1/3 left-1/4 w-1/2 h-1 bg-gray-400 transform rotate-45"></div>
+                  </div>
+
+                  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    <div className="relative">
+                      <div className="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center">
+                        <MapPin className="w-4 h-4 text-white" />
                       </div>
-                      <span className="text-sm text-gray-600">4.2 · 3 Google reviews</span>
+                      <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-red-500 rotate-45"></div>
                     </div>
                   </div>
 
-                  {/* Map Content */}
-                  <div className="relative h-full">
-                    {/* Simulated map roads */}
-                    <div className="absolute inset-0">
-                      <div className="absolute top-1/2 left-0 w-full h-1 bg-gray-400 transform -translate-y-1/2"></div>
-                      <div className="absolute top-0 left-1/2 w-1 h-full bg-gray-400 transform -translate-x-1/2"></div>
-                      <div className="absolute top-1/3 left-1/4 w-1/2 h-1 bg-gray-400 transform rotate-45"></div>
-                    </div>
-
-                    {/* Location marker */}
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                      <div className="relative">
-                        <div className="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center">
-                          <MapPin className="w-4 h-4 text-white" />
-                        </div>
-                        <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-red-500 rotate-45"></div>
-                      </div>
-                    </div>
-
-                    {/* Area labels */}
-                    <div className="absolute bottom-8 left-4 text-xs text-gray-600">
-                      <div className="bg-white px-2 py-1 rounded shadow">Gwagwalada</div>
-                    </div>
-                    <div className="absolute top-8 right-4 text-xs text-gray-600">
-                      <div className="bg-white px-2 py-1 rounded shadow">Kuje</div>
-                    </div>
+                  <div className="absolute bottom-8 left-4 text-xs text-gray-600">
+                    <div className="bg-white px-2 py-1 rounded shadow">Gwagwalada</div>
                   </div>
-
-                  {/* Google Maps attribution */}
-                  <div className="absolute bottom-2 left-2 text-xs text-gray-500">
-                    <span className="bg-white px-2 py-1 rounded">Google</span>
+                  <div className="absolute top-8 right-4 text-xs text-gray-600">
+                    <div className="bg-white px-2 py-1 rounded shadow">Kuje</div>
                   </div>
+                </div>
+
+                <div className="absolute bottom-2 left-2 text-xs text-gray-500">
+                  <span className="bg-white px-2 py-1 rounded">Google</span>
                 </div>
               </div>
             </div>
