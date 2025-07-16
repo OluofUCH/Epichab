@@ -26,7 +26,7 @@ export default function Header() {
     { title: "Home", path: "/" },
     { title: "About Us", path: "/about" },
     { title: "Services", path: "/services" },
-    { title: "Referal", path: "#" },
+    { title: "Referral", path: "#" },
     { title: "Careers", path: "#" },
     { title: "Contact Us", path: "/contact" },
   ];
@@ -36,17 +36,18 @@ export default function Header() {
       <div className="max-w-full mx-auto lg:px-8">
         <div className="flex justify-between items-center h-16">
            {/* Logo */}
-            <div className="flex items-center space-x-2">
-              <div className="relative">
-                <div className="w-12 h-12 rounded-full border-2 border-black flex items-center justify-center">
-                  <div className="w-8 h-8 rounded-full bg-black opacity-20"></div>
-                </div>
-                <div className="absolute -top-1 -right-1 w-6 h-6 bg-blue-400 rounded-full flex items-center justify-center">
-                  <div className="w-2 h-2 bg-black rounded-full"></div>
-                </div>
-              </div>
-              
-            </div>
+            <div className="Logo flex items-center">
+          <Link href="/">
+              <Image 
+                src="/images/logoi.png"
+                alt="Framp" 
+                width={120} 
+                height={40} 
+                className="h-14 w-auto"
+              />
+          </Link>
+          </div>
+          
 
           <nav className="hidden md:flex space-x-8">
             {navItems.map((navItem, index) => (
