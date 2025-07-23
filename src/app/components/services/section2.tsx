@@ -8,25 +8,25 @@ const Section2 = () => {
     {
       id: 1,
       title: "Family Supports Program",
-      image: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=250&fit=crop&crop=faces",
+      image: "https://www.ashleycourtcare.co.uk/wp-content/uploads/2018/10/Senior-and-Elderly-Care-Living-Options.jpg",
       bgColor: "bg-gray-700"
     },
     {
       id: 2,
       title: "Supported Living Program",
-      image: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=250&fit=crop&crop=faces",
+      image: "https://img.freepik.com/premium-photo/happy-elderly-people-laughing-together-outdoors-joyful-moment-elderly-individuals-laughing_1143726-43499.jpg?w=826",
       bgColor: "bg-gray-800"
     },
     {
       id: 3,
       title: "Individualized Support Planning (ISP/PCISP)",
-      image: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=250&fit=crop&crop=faces",
+      image: "https://www.datocms-assets.com/70447/1661179945-seniors-playing-poker-hero.jpg?fit=crop&fm=webp&h=400&q=60&w=1000",
       bgColor: "bg-gray-700"
     },
     {
       id: 4,
       title: "Employment and Career Support",
-      image: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=250&fit=crop&crop=faces",
+      image: "https://bacp-web-live-endpoint.azureedge.net/cache/1/b/e/1/5/5/1be1557b7eedf235f7aed2fbe5fdc88b8ebca8f7.jpg",
       bgColor: "bg-gray-800"
     },
   ];

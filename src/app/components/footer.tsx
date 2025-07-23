@@ -65,19 +65,19 @@ export default function Footer() {
                 About Us
                 <span className="ml-2 text-orange-400">▶</span>
               </a>
-              <a href="services" className="flex items-center text-white hover:text-orange-400 transition-colors">
+              <a href="/services" className="flex items-center text-white hover:text-orange-400 transition-colors">
                 Services
                 <span className="ml-2 text-orange-400">▶</span>
               </a>
-              <a href="#" className="block text-white hover:text-orange-400 transition-colors">
-                Partners
+              <a href="/team" className="block text-white hover:text-orange-400 transition-colors">
+                Team
               </a>
-              <a href="#" className="flex items-center text-white hover:text-orange-400 transition-colors">
-                Resources
+              <a href="/access" className="flex items-center text-white hover:text-orange-400 transition-colors">
+                Privacy and policy
                 <span className="ml-2 text-orange-400">▶</span>
               </a>
-              <a href="#" className="block text-white hover:text-orange-400 transition-colors">
-                Insights
+              <a href="/team" className="block text-white hover:text-orange-400 transition-colors">
+                Join Us
               </a>
               <a href="/contact" className="block text-white hover:text-orange-400 transition-colors">
                 Contact

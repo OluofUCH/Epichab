@@ -25,7 +25,7 @@ const Vision = () => {
             {/* Image placeholder */}
             <div className="mb-6">
               <img 
-                src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=250&fit=crop&crop=faces"
+                src="https://www.ashleycourtcare.co.uk/wp-content/uploads/2018/10/Senior-and-Elderly-Care-Living-Options.jpg"
                 alt="Students in classroom"
                 className="w-full h-48 object-cover rounded-lg"
               />
@@ -46,7 +46,7 @@ const Vision = () => {
             {/* Image placeholder */}
             <div className="mb-6">
               <img 
-                src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=250&fit=crop&crop=faces"
+                src="https://img.freepik.com/premium-photo/happy-elderly-people-laughing-together-outdoors-joyful-moment-elderly-individuals-laughing_1143726-43499.jpg?w=826"
                 alt="Students in classroom"
                 className="w-full h-48 object-cover rounded-lg"
               />
