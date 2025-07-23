@@ -76,7 +76,7 @@ export default function Footer() {
                 Privacy and policy
                 <span className="ml-2 text-orange-400">▶</span>
               </a>
-              <a href="/team" className="block text-white hover:text-orange-400 transition-colors">
+              <a href="/career" className="block text-white hover:text-orange-400 transition-colors">
                 Join Us
               </a>
               <a href="/contact" className="block text-white hover:text-orange-400 transition-colors">
