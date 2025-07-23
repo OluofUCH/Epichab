@@ -28,7 +28,7 @@ export default function AccessibilityPrivacy() {
              
 
               {/* Accessibility Statement */}
-              <div className="group hover:scale-[1.01] transition-all duration-300">
+              <div className="">
                 <div className="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-28 h-28 bg-blue-50 rounded-full blur-xl"></div>
                   <div className="relative z-10">
@@ -76,7 +76,7 @@ export default function AccessibilityPrivacy() {
               </div>
 
               {/* HIPAA & Privacy Compliance */}
-              <div className="group hover:scale-[1.01] transition-all duration-300">
+              <div className="">
                 <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 shadow-xl text-white relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-36 h-36 bg-white/5 rounded-full blur-xl"></div>
                   <div className="relative z-10">
@@ -135,7 +135,7 @@ export default function AccessibilityPrivacy() {
               </div>
 
               {/* Terms & Conditions */}
-              <div className="group hover:scale-[1.01] transition-all duration-300">
+              <div className="">
                 <div className="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 relative overflow-hidden">
                   <div className="absolute bottom-0 right-0 w-28 h-28 bg-blue-50 rounded-full blur-xl"></div>
                   <div className="relative z-10">
