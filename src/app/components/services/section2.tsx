@@ -7,34 +7,28 @@ const Section2 = () => {
   const packages = [
     {
       id: 1,
-      title: "Residential support",
+      title: "Family Supports Program",
       image: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=250&fit=crop&crop=faces",
       bgColor: "bg-gray-700"
     },
     {
       id: 2,
-      title: "Life skills training",
+      title: "Supported Living Program",
       image: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=250&fit=crop&crop=faces",
       bgColor: "bg-gray-800"
     },
     {
       id: 3,
-      title: "Personal care",
+      title: "Individualized Support Planning (ISP/PCISP)",
       image: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=250&fit=crop&crop=faces",
       bgColor: "bg-gray-700"
     },
     {
       id: 4,
-      title: "Behavioral support and planning",
+      title: "Employment and Career Support",
       image: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=250&fit=crop&crop=faces",
       bgColor: "bg-gray-800"
     },
-    {
-      id: 5,
-      title: "Meal planning assistance",
-      image: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=250&fit=crop&crop=faces",
-      bgColor: "bg-gray-700"
-    }
   ];
 
   return (
@@ -53,10 +47,10 @@ const Section2 = () => {
             {/* Heading */}
             <div className="space-y-4">
               <h2 className="text-4xl text-White md:text-5xl lg:text-6xl font-light leading-tight">
-                Healthcare Packages
+                Healthcare Programs
               </h2>
               <p className="text-gray-400 text-lg max-w-md">
-                Take a glimpse of the erinum of our healthcare packages
+                Take a glimpse of the erinum of our healthcare Programs
               </p>
             </div>
 

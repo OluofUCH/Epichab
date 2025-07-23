@@ -15,17 +15,18 @@ export default function Aboutus() {
         <div className=" rounded-lg  p-8 lg:p-12">
           <div className="max-w-4xl">
             <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-8 leading-tight">
-              Home and Community-Based Services HCBS Growth in Africa
+              Welcome Message
             </h1>
             
             <div className="space-y-6 text-gray-700 leading-relaxed">
               <p className="text-lg">
-This business operates in the healthcare and social support sector, specifically providing non-medical support services for individuals with disabilities or special needs under Medicaid waiver programs or similar systems.
+Welcome to Epichab Solution LLC, where we believe every individual has the right to lead a self-directed life with choice, respect, and independence.
+
               </p>
               
               <p className="text-lg">
-               Epichab Solution LLC provides individualized support to help clients live independently and with dignity in community settings. Epichab Solution LLC provides individualized support to help clients live independently and with dignity in community settings. 
-          </p>
+        Our approach is rooted in person-centered values, ensuring that individuals, together with their families, shape their daily experiences, community involvement, and long-term goals. Through compassionate care, meaningful activities, and rigorous safeguards, we deliver services that foster growth, dignity, and true independence.
+  </p>
           </div>
         </div>
         <div className="flex items-center space-x-4">

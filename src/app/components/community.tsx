@@ -30,8 +30,7 @@ export default function CommunitiesSection() {
           
           {/* Description Text */}
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-light max-w-5xl mx-auto">
-            We're forging sustainable and resilient communities throughout the continent. By uniting a diverse network of activists, volunteers, policymakers, and organisations into communities of practice, we're advancing climate innovation. At the same time, we're offering support to those most at risk, helping them to address their vulnerabilities. This collective effort is a step towards building a climate-resilient Africa.
-          </p>
+           We believe in full community inclusion. Individuals are supported to participate in activities they enjoy, from shopping trips and movie nights to local events and social gatherings. Our staff assist with planning weekly outings based on personal preferences, and we make every effort to facilitate community engagement that is age-appropriate, respectful, and empowering. Individuals are never limited to childlike options or routines that do not reflect their interests or maturity.  </p>
         </div>
       </div>
     </div>

@@ -25,13 +25,10 @@ const About = () => {
               About EpicHab Solutions
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              Born from the visionary leadership, Epic Hab solutions is a dynamic private-owned healthcare service that represents the entrepreneurial spirit and ambitious vision of NGO.
-            </p>
-            <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              Our goal is simple yet ambitious: to become the leading private-owned healthcare solution in Africa through excellence in service, innovation, and dedication to our customers.
+             Epichab Solution LLC is a person-centered service provider committed to supporting individuals with developmental disabilities in living lives of dignity, independence, and purpose. We believe that individuals and their families should be the driving force behind the services they receive, empowered to make decisions, pursue meaningful goals, and enjoy full inclusion in community life.
             </p>
             <p className="text-gray-600 text-lg leading-relaxed">
-              We are committed to fostering the growth of our company through strategic partnerships, while working towards establishing ourselves as a premier destination for healthcare services in Nigeria and beyond. Our commitment to excellence, safety, and customer satisfaction drives us to redefine the healthcare experience.
+              Through a flexible and responsive approach rooted in the HCBS Final Rule, we provide residential support, behavioural and medical coordination, community engagement, and comprehensive rights protections. Every service is shaped around individual preferences, with emphasis on personal freedom, privacy, and continuous growth.
             </p>
           </div>
           <div className="relative">
@@ -72,11 +69,11 @@ const About = () => {
             <div className="bg-white rounded-lg p-8 shadow-md hover:shadow-xl transition-shadow">
               <div className="flex items-center mb-6">
                 <Award className="text-blue-500 w-8 h-8 mr-3" />
-                <h3 className="text-2xl font-bold text-gray-800">Excellence</h3>
+                <h3 className="text-2xl font-bold text-gray-800">Respect</h3>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                We are committed to delivering exceptional service and experiences to our customers. Every interaction is an opportunity to exceed expectations.
-              </p>
+              : We uphold each person’s dignity, voice, and right to be heard.
+ </p>
             </div>
 
             {/* Reliability */}
@@ -94,44 +91,43 @@ const About = () => {
             <div className="bg-white rounded-lg p-8 shadow-md hover:shadow-xl transition-shadow">
               <div className="flex items-center mb-6">
                 <Users className="text-blue-500 w-8 h-8 mr-3" />
-                <h3 className="text-2xl font-biold text-gray-800">Leadership</h3>
+                <h3 className="text-2xl font-biold text-gray-800">Independence </h3>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                We strive to be leaders in innovation, safety, and service in the healthcare industry. Our commitment to excellence drives us forward.
-              </p>
+               Our services are built around promoting autonomy and self-direction.
+  </p>
             </div>
 
             {/* Trust and Loyalty */}
             <div className="bg-white rounded-lg p-8 shadow-md hover:shadow-xl transition-shadow">
               <div className="flex items-center mb-6">
                 <Heart className="text-blue-500 w-8 h-8 mr-3" />
-                <h3 className="text-2xl font-bold text-gray-800">Trust and Loyalty</h3>
+                <h3 className="text-2xl font-bold text-gray-800">Integrity</h3>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                Building lasting relationships with our customers through trust, transparency, and consistently delivering on our promises.
-              </p>
+               We follow transparent, ethical practices in everything we do.
+  </p>
             </div>
 
             {/* Safety */}
             <div className="bg-white rounded-lg p-8 shadow-md hover:shadow-xl transition-shadow">
               <div className="flex items-center mb-6">
                 <Shield className="text-blue-500 w-8 h-8 mr-3" />
-                <h3 className="text-2xl font-bold text-gray-800">Safety</h3>
+                <h3 className="text-2xl font-bold text-gray-800">Safety & Protection</h3>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                Safety is our top priority. We maintain the highest safety standards and continuously invest in training and technology.
-              </p>
+                We enforce zero tolerance for abuse, neglect, or exploitation and ensure safeguards are in place</p>
             </div>
 
             {/* Regional Integration */}
             <div className="bg-white rounded-lg p-8 shadow-md hover:shadow-xl transition-shadow">
               <div className="flex items-center mb-6">
                 <MapPin className="text-blue-500 w-8 h-8 mr-3" />
-                <h3 className="text-2xl font-bold text-gray-800">Regional Integration</h3>
+                <h3 className="text-2xl font-bold text-gray-800">Compassion </h3>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                Connecting communities and regions through reliable healthcare, fostering economic growth and cultural exchange.
-              </p>
+               Every action is guided by empathy and the unique needs of each individual.
+</p>
             </div>
           </div>
         </div>
@@ -142,9 +138,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto px-8 text-center">
           <h2 className="text-4xl font-bold mb-8">Mission Statement</h2>
           <p className="text-xl leading-relaxed">
-            To connect people and places through safe, reliable, and affordable healthcare, while promoting 
-            economic growth, cultural exchange, and regional integration. We are committed to being the 
-            bridge that brings communities together.
+            To empower individuals by honouring their choices, protecting their rights, and providing compassionate, person-centered services that foster independence and self-determined living.
           </p>
         </div>
       </section>

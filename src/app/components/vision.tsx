@@ -8,21 +8,20 @@ const Vision = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:pt-6">
           
           {/* Left Section - Our Work */}
-          <div className="bg-white rounded-lg shadow-lg p-8 lg:col-span-1">
+          <div className="bg-white rounded-lg shadow-lg p-6 lg:col-span-1">
             <div className="border-l-4 border-blue-600 pl-4 mb-6">
               <h1 className="text-4xl font-bold text-gray-800 mb-6">What we do</h1>
             </div>
             
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                Epic Hab solutions's work is built on three pillars: <span className="font-semibold text-gray-800"> literacy</span>, <span className="font-semibold text-gray-800">advocacy</span>, and <span className="font-semibold text-gray-800">innovation</span> (executed through our <span className="font-semibold text-gray-800">CAALabs</span>) and communities. Our work seeks to educate, inspire change, and nurture innovation to safeguard and enhance the well-being and economic conditions of Africans and their communities.
-              </p>
+               At Epichab Solution LLC, we provide supported living services that prioritise the individual’s autonomy, comfort, and dignity. Our goal is to help each person create a home that feels safe, welcoming, and entirely their own. Whether the residence is owned by the individual, their family, or Epichab, we ensure that all housing arrangements uphold the Home and Community-Based Services (HCBS) Final Rule, respecting personal privacy and choice in housemates, activities, and routines. </p>
             </div>
           </div>
 
        
    {/* Right Section - Climate Literacy and Advocacy */}
-          <div className="bg-white rounded-lg shadow-lg p-2 sm:p-8 lg:col-span-1">
+          <div className="bg-white rounded-lg shadow-lg p-6 lg:col-span-1">
             {/* Image placeholder */}
             <div className="mb-6">
               <img 
@@ -32,11 +31,10 @@ const Vision = () => {
               />
             </div>
             
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Residential support</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-6">Person-Centered Planning</h2>
             
             <p className="text-gray-700 leading-relaxed mb-8">
-              We are passionate advocates and educators committed to educating and empowering Africans on climate change and innovative solutions.
-            </p>
+            Every service we deliver is guided by a Person-Centered Individualised Support Plan (PCISP), tailored to the needs, preferences, and goals of the individual. </p>
             
              <Link href="/services" className="bg-gray-800 hover:bg-gray-500 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
               Read More
@@ -44,7 +42,7 @@ const Vision = () => {
           </div>
 
           {/* Right Section - Climate Literacy and Advocacy */}
-          <div className="bg-white rounded-lg shadow-lg p-8 lg:col-span-1">
+          <div className="bg-white rounded-lg shadow-lg p-6 lg:col-span-1">
             {/* Image placeholder */}
             <div className="mb-6">
               <img 
@@ -54,10 +52,10 @@ const Vision = () => {
               />
             </div>
             
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">●	Life skills Training</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-6">Financial and Rights Support</h2>
             
             <p className="text-gray-700 leading-relaxed mb-8">
-              We are passionate advocates and educators committed to educating and empowering Africans on climate change and innovative solutions.
+              Respecting and protecting individual rights is at the core of what we do. We provide assistance with budgeting, shopping, and money management only as needed and as outlined in each individual’s PCISP. 
             </p>
             
             <Link href="/services" className="bg-gray-800 hover:bg-gray-500 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">

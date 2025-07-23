@@ -4,45 +4,45 @@ const ServicesSection = () => {
    const features = [
     {
       icon: "",
-      title: "Habilitation",
+      title: "Person-Centered Planning",
       description:
-        "Track every patient consultation — not just the ones who signed — so no opportunity is missed. No more post-it notes or forgotten follow-ups.",
+        "Every service we deliver is guided by a Person-Centered Individualised Support Plan (PCISP), tailored to the needs, preferences, and goals of the individual. We work collaboratively with individuals, their families, and legal representatives to ensure that services promote growth, self-determination, and a fulfilling quality of life. ",
       badge: null,
     }, 
     {
       icon: "",
-      title: "Supportive Living",
+      title: "Community Integration Activities",
       description:
-        "Send pre-written, customizable texts and emails post-consultation on your timeline (Day 1, Day 3, etc.). Boost starts without lifting a finger.",
+        "We believe in full community inclusion. Individuals are supported to participate in activities they enjoy, from shopping trips and movie nights to local events and social gatherings. Our staff assist with planning weekly outings based on personal preferences, and we make every effort to facilitate community engagement that is age-appropriate, respectful, and empowering.",
       badge: "Feature text",
       badgeColor: "bg-purple-500",
     },
     {
       icon: "",
-      title: "Behavioral Support Plans",
+      title: "Financial and Rights Support",
       description:
-        "Let patients see and choose between multiple plan options — like Pay in Full, Monthly, or No Down — in a clean, mobile-friendly format.",
+        "Respecting and protecting individual rights is at the core of what we do. We provide assistance with budgeting, shopping, and money management only as needed and as outlined in each individual’s PCISP. Individuals maintain control over their funds and may choose to receive additional support through a Representative Payee if applicable.",
       badge: null,
     },
     {
       icon: "",
-      title: "Health & Safety Monitoring",
+      title: "Medical & Behavioral Support",
       description:
-        "Track consults, follow-up responses, plan preferences, and signed starts — all in one place. Know what works, where patients drop off, and which TCs convert best.",
+        "Our trained staff provide essential support in coordinating health services, medication administration, and behavioural care in alignment with each individual’s needs. ",
       badge: null,
     },
     {
       icon: "",
-      title: "Community Participation Assistance",
+      title: "Transportation Services",
       description:
-        "Generate a ready-to-sign treatment contract based on the selected plan. Patients can sign instantly from their phone or in-office.",
+        "To ensure individuals have full access to the community, we offer transportation services based on need and preference. This includes employee transportation, use of public transport, or coordination with family or support teams.",
       badge: null,
     },
     {
       icon: "",
-      title: "24-hour Support (as needed)",
+      title: "Privacy and Independence Focus",
       description:
-        "You're in control — Edit templates, Add/remove users, Customize branding & Scale across multiple locations.",
+        "We honour the right of each individual to experience privacy and independence in every aspect of daily life. Individuals are supported to make their own decisions about meals, visitors, personal routines, and room access, including the ability to lock their bedrooms unless otherwise restricted by a support plan.",
       badge: null,
     },
   ];

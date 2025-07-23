@@ -61,7 +61,8 @@ const ContactUs: React.FC = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Clock className="w-4 h-4 text-gray-600" />
-                  <span className="text-blue-700">Mon-Sun: 9:00 AM - 6:00 PM</span>
+                  <span className="text-blue-700">Monday – Friday: 9:00 AM – 5:00 PM
+Saturday & Sunday: Closed</span>
                 </div>
               </div>
             </div>
@@ -70,7 +71,7 @@ const ContactUs: React.FC = () => {
               <h3 className="text-lg font-semibold text-gray-800 mb-4">Email Support</h3>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-gray-600" />
-                <span className="text-blue-700">General Inquiries: info@example.com</span>
+                <span className="text-blue-700">General Inquiries: info@epichabsolution.com</span>
               </div>
             </div>
 
@@ -80,7 +81,7 @@ const ContactUs: React.FC = () => {
                 <div className="flex items-start space-x-3">
                   <MapPin className="w-4 h-4 text-gray-600 mt-1" />
                   <div className="text-blue-700">
-                    <p>Phase 44 Headquarters</p>
+                    <p>123 Epichab Way</p>
                     <p>Abuja, Dutse International Airport</p>
                     <p>Nigeria</p>
                   </div>
@@ -96,7 +97,7 @@ const ContactUs: React.FC = () => {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Get in touch with us</h2>
+              <h2 className="text-lg font-bold text-gray-800 mb-6">Please complete the form below and a member of our team will respond within 1–2 business days.</h2>
               <div className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-black">
                   <input

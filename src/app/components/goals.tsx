@@ -5,24 +5,24 @@ export default function Goals() {
   const features = [
     {
       icon: "",
-      title: "Habilitation",
+      title: "Family Supports Program",
       description:
-        "Track every patient consultation — not just the ones who signed — so no opportunity is missed. No more post-it notes or forgotten follow-ups.",
+        "Our Family Supports Program is designed to work alongside families to enhance the lives of individuals with developmental disabilities while allowing them to remain in their home environments",
       badge: null,
     }, 
     {
       icon: "",
-      title: "Supportive Living",
+      title: "Supported Living Program",
       description:
-        "Send pre-written, customizable texts and emails post-consultation on your timeline (Day 1, Day 3, etc.). Boost starts without lifting a finger.",
+        "In our Supported Living Program, individuals receive tailored care within homes that reflect their preferences, needs, and personal goals.",
       badge: "Feature text",
       badgeColor: "bg-purple-500",
     },
     {
       icon: "",
-      title: "Behavioral Support Plans",
+      title: "Individualized Support Planning (ISP/PCISP)",
       description:
-        "Let patients see and choose between multiple plan options — like Pay in Full, Monthly, or No Down — in a clean, mobile-friendly format.",
+        "At the heart of our approach is the Person-Centered Individualised Support Plan (PCISP), a dynamic, living document developed collaboratively with the individual, their family, legal representatives, and support team.",
       badge: null,
     }
   ];
@@ -31,7 +31,7 @@ export default function Goals() {
       <div className="pb-[2.62rem] flex flex-col gap-[40px]">
       <div className="flex w-fit justify-start items-center px-4 py-[8px]  rounded-[8px] border border-[#E4E4E7] bg-[#F4FFFF] shadow-[0px_1px_3px_0px_rgba(25,33,61,0.10)]">
             <h2 className="sm:text-sm text-[14px] font-medium text-gray-600 uppercase tracking-wide">
-         OUR FEATURES
+         OUR PROGRAMS
         </h2>
             </div>
 
