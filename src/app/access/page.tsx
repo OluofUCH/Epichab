@@ -8,10 +8,10 @@ export default function AccessibilityPrivacy() {
     
     
         <section className="relative min-h-[80dvh] bg-gradient-to-br from-blue-900/90 via-blue-800/80 to-blue-600/70 flex items-center justify-center text-white">
-        <div className="absolute inset-0  bg-opacity-30"></div>
+        {/* <div className="absolute inset-0  bg-opacity-30"></div> */}
         <div className="relative z-10 text-center px-8">
           <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-wide">
-           Accessibility and Privacy
+           Privacy
           </h1>
           <p className="text-xl md:text-2xl font-light max-w-2xl mx-auto leading-relaxed">
            Transparency, Inclusiveness & Compliance
