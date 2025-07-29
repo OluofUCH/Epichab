@@ -4,14 +4,15 @@ export default function Action() {
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
       {/* Background with green gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-blue-800/80 to-blue-600/70">
+      <div className="absolute inset-0 bg-[url('https://bacp-web-live-endpoint.azureedge.net/cache/1/b/e/1/5/5/1be1557b7eedf235f7aed2fbe5fdc88b8ebca8f7.jpg')] bg-cover bg-center">
+          <div className="absolute inset-0 bg-black/50 bg-opacity-80"></div>
         {/* Organic pattern overlay */}
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-transparent via-blue-500/20 to-transparent"></div>
           <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl"></div>
           <div className="absolute bottom-1/4 left-1/3 w-80 h-80 bg-blue-300/10 rounded-full blur-2xl"></div>
         </div>
-      </div>
+      </div> 
 
       {/* Leaf patterns - decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
@@ -48,9 +49,9 @@ export default function Action() {
               <div className="w-4 h-4 bg-yellow-400 rounded-full"></div>
             </div>
           </div>
-          <div className="text-blue-200 font-bold text-lg tracking-wide">
+          <div className="text-white font-bold text-lg tracking-wide">
             EpicHS
-            <div className="text-xs text-blue-300 font-normal tracking-wider">
+            <div className="text-xs text-white font-normal tracking-wider">
               EPIC HAB SOLUTIONS
             </div>
           </div>
@@ -79,7 +80,7 @@ export default function Action() {
           <button className="bg-blue-500 hover:bg-blue-400 text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-200 shadow-lg">
             Learn More
           </button>
-          <button className="border border-blue-300 text-blue-200 hover:bg-blue-500/20 font-semibold px-8 py-3 rounded-lg transition-colors duration-200">
+          <button className="border border-white text-white hover:bg-blue-500/20 font-semibold px-8 py-3 rounded-lg transition-colors duration-200">
             Join the Forum
           </button>
         </div>
