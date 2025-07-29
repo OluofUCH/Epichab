@@ -29,7 +29,6 @@ export default function Footer() {
                 <div className="text-lg font-semibold">Epichub</div>
                 <div className="text-lg font-semibold">
                   <span className="text-orange-400">solutions</span>
-                  <span className="text-xs ml-1">africa</span>
                 </div>
               </div>
             </div>

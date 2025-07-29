@@ -5,20 +5,20 @@ const About = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative min-h-[80dvh] bg-gradient-to-br from-blue-900/90 via-blue-800/80 to-blue-600/70 flex items-center justify-center text-white">
-        <div className="absolute inset-0  bg-opacity-30"></div>
-        <div className="relative z-10 text-center px-8">
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-wide">
-            Who we are
-          </h1>
-          <p className="text-xl md:text-2xl font-light max-w-2xl mx-auto leading-relaxed">
-            We are committed to providing exceptional healthcare services that connect people and places across Nigeria and beyond.
-          </p>
-        </div>
-      </section>
+    <section className="relative min-h-[80dvh] bg-[url('https://bacp-web-live-endpoint.azureedge.net/cache/1/b/e/1/5/5/1be1557b7eedf235f7aed2fbe5fdc88b8ebca8f7.jpg')] bg-cover bg-center flex items-center justify-center text-white">
+  <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/40"></div>
+  <div className="relative z-10 text-center px-8">
+    <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-wide">
+      Who we are
+    </h1>
+    <p className="text-xl md:text-2xl font-light max-w-2xl mx-auto leading-relaxed">
+      We are committed to providing exceptional healthcare services that connect people and places across Nigeria and beyond.
+    </p>
+  </div>
+</section>
 
       {/* About Section */}
-      <section className="py-20 px-8 max-w-6xl mx-auto">
+      <section className="py-20 px-8  mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold text-gray-800 mb-6">
@@ -60,11 +60,11 @@ const About = () => {
 
       {/* Core Values Section */}
       <section className="py-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto p-2 sm:px-8">
+        <div className=" mx-auto p-2 sm:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">
             Our Core Values
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 2xl:grid-cols-4 gap-8">
             {/* Excellence */}
             <div className="bg-white rounded-lg p-8 shadow-md hover:shadow-xl transition-shadow">
               <div className="flex items-center mb-6">
@@ -135,7 +135,7 @@ const About = () => {
 
       {/* Mission Statement */}
       <section className="py-20 bg-gradient-to-r from-gray-800 to-gray-900 text-white">
-        <div className="max-w-4xl mx-auto px-8 text-center">
+        <div className=" mx-auto px-8 text-center">
           <h2 className="text-4xl font-bold mb-8">Mission Statement</h2>
           <p className="text-xl leading-relaxed">
             To empower individuals by honouring their choices, protecting their rights, and providing compassionate, person-centered services that foster independence and self-determined living.

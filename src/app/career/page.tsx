@@ -83,21 +83,17 @@ const Careers: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="relative h-80 bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 overflow-hidden">
-        <div className="absolute inset-0 bg-black bg-opacity-20"></div>
-        <div className="relative z-10 flex items-center justify-center h-full">
-          <div className="text-center">
-            <h1 className="text-5xl font-bold text-white mb-4">Join Our Team</h1>
-            <p className="text-xl text-blue-100">Make a difference in lives every day</p>
-          </div>
-        </div>
-        {/* Abstract background elements */}
-        <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
-          <div className="absolute top-10 left-20 w-32 h-32 bg-cyan-400 rounded-full opacity-20 blur-xl"></div>
-          <div className="absolute bottom-20 right-20 w-40 h-40 bg-blue-300 rounded-full opacity-20 blur-2xl"></div>
-          <div className="absolute top-1/2 left-1/3 w-24 h-24 bg-white rounded-full opacity-10 blur-lg"></div>
-        </div>
-      </div>
+     <section className="relative min-h-[80dvh] bg-[url('https://bacp-web-live-endpoint.azureedge.net/cache/1/b/e/1/5/5/1be1557b7eedf235f7aed2fbe5fdc88b8ebca8f7.jpg')] bg-cover bg-center flex items-center justify-center text-white">
+  <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/40"></div>
+  <div className="relative z-10 text-center px-8">
+    <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-wide">
+           Join our team
+          </h1>
+          <p className="text-xl md:text-2xl font-light max-w-2xl mx-auto leading-relaxed">
+           Make a difference in the lives everyday. Explore our career opportunities and become part of a compassionate community dedicated to empowering others.
+          </p>
+  </div>
+</section>
 
       {/* Why Work With Us */}
       <div className="bg-blue-50 py-16">

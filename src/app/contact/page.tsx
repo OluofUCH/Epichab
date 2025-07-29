@@ -34,25 +34,25 @@ const ContactUs: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="relative h-80 bg-gradient-to-r from-blue-500 via-blue-600 to-indigo-700 overflow-hidden">
-        <div className="absolute inset-0 bg-black bg-opacity-30"></div>
-        <div className="relative z-10 flex items-center justify-center h-full">
-          <h1 className="text-5xl font-bold text-white">Contact Us</h1>
-        </div>
-        {/* Abstract background elements */}
-        <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
-          <div className="absolute top-10 left-20 w-32 h-32 bg-cyan-400 rounded-full opacity-30 blur-xl"></div>
-          <div className="absolute bottom-20 right-20 w-40 h-40 bg-blue-300 rounded-full opacity-20 blur-2xl"></div>
-        </div>
-      </div>
+       <section className="relative min-h-[80dvh] bg-[url('https://bacp-web-live-endpoint.azureedge.net/cache/1/b/e/1/5/5/1be1557b7eedf235f7aed2fbe5fdc88b8ebca8f7.jpg')] bg-cover bg-center flex items-center justify-center text-white">
+  <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/40"></div>
+  <div className="relative z-10 text-center px-8">
+    <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-wide">
+           Contact Us
+          </h1>
+          <p className="text-xl md:text-2xl font-light max-w-2xl mx-auto leading-relaxed">
+           Reach out to us for any inquiries, support, or feedback. We are here to assist you with all your needs.
+          </p>
+  </div>
+</section>
 
       {/* Contact Info Cards */}
       <div className="bg-blue-50 py-12">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <span className="text-blue-600 font-semibold">🇳🇬</span>
-              <span className="text-blue-700">+234</span>
+              <span className="text-blue-600 font-semibold">US</span>
+              <span className="text-blue-700">+44</span>
               <h3 className="text-lg font-semibold text-gray-800 mb-4">Customer Support</h3>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
@@ -81,9 +81,8 @@ Saturday & Sunday: Closed</span>
                 <div className="flex items-start space-x-3">
                   <MapPin className="w-4 h-4 text-gray-600 mt-1" />
                   <div className="text-blue-700">
-                    <p>123 Epichab Way</p>
-                    <p>Abuja, Dutse International Airport</p>
-                    <p>Nigeria</p>
+                    <p>266 Swan Rd Old Fort, </p>
+                    <p>Tennessee(TN), 37362</p>
                   </div>
                 </div>
               </div>
@@ -128,8 +127,8 @@ Saturday & Sunday: Closed</span>
                     className="w-full px-4 py-3 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   />
                   <div className="flex items-center space-x-2 px-3 py-2 bg-gray-100 rounded-lg">
-                    <span className="text-green-600 font-semibold">🇳🇬</span>
-                    <span className="text-gray-700">+234</span>
+                    <span className="text-green-600 font-semibold">US</span>
+                    <span className="text-gray-700">+44</span>
                   </div>
                 </div>
 
@@ -155,7 +154,7 @@ Saturday & Sunday: Closed</span>
             <div className="bg-gray-100 rounded-lg h-96 relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-blue-200">
                 <div className="bg-white p-3 m-4 rounded-lg shadow-sm">
-                  <h3 className="font-semibold text-gray-800">Abuja Super International Airport</h3>
+                  <h3 className="font-semibold text-gray-800">266 Swan Rd Old Fort,Tennessee(TN), 37362</h3>
                   <div className="flex items-center space-x-2 mt-1">
                     <div className="flex space-x-1">
                       <span className="text-yellow-400">★</span>
@@ -185,10 +184,10 @@ Saturday & Sunday: Closed</span>
                   </div>
 
                   <div className="absolute bottom-8 left-4 text-xs text-gray-600">
-                    <div className="bg-white px-2 py-1 rounded shadow">Gwagwalada</div>
+                    <div className="bg-white px-2 py-1 rounded shadow">New York</div>
                   </div>
                   <div className="absolute top-8 right-4 text-xs text-gray-600">
-                    <div className="bg-white px-2 py-1 rounded shadow">Kuje</div>
+                    <div className="bg-white px-2 py-1 rounded shadow">Tennesse</div>
                   </div>
                 </div>
 

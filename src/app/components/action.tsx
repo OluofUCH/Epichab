@@ -57,18 +57,18 @@ export default function Action() {
         </div>
 
         {/* Main heading */}
-        <div className="max-w-4xl">
+        <div className="">
           <h1 className="text-white font-bold leading-tight mb-6">
-            <span className="text-6xl md:text-7xl lg:text-8xl block mb-2">
+            <span className="text-6xl md:text-7xl lg:text-8xl xl:text-12xl block mb-2">
               Supporting 
             </span>
-            <span className="text-5xl md:text-6xl lg:text-7xl block mb-2">
+            <span className="text-5xl md:text-6xl lg:text-7xl xl:text-11xl  block mb-2">
               Individual Choice.
             </span>
-            <span className="text-5xl md:text-6xl lg:text-7xl block mb-2">
+            <span className="text-5xl md:text-6xl lg:text-7xl xl:text-11xl  block mb-2">
               Enabling
             </span>
-            <span className="text-4xl md:text-5xl lg:text-6xl block">
+            <span className="text-4xl md:text-5xl lg:text-6xl xl:text-10xl  block">
               Independent Lives.
             </span>
           </h1>

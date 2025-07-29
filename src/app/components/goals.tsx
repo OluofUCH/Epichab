@@ -3,28 +3,32 @@ import Link from "next/link";
 
 export default function Goals() {
   const features = [
-    {
+   {
       icon: "",
-      title: "Family Supports Program",
+      title: "Person-Centered Planning",
       description:
-        "Our Family Supports Program is designed to work alongside families to enhance the lives of individuals with developmental disabilities while allowing them to remain in their home environments",
+        "Every service we deliver is guided by a Person-Centered Individualised Support Plan (PCISP), tailored to the needs, preferences, and goals of the individual. We work collaboratively with individuals, their families, and legal representatives to ensure that services promote growth, self-determination, and a fulfilling quality of life. ",
       badge: null,
+      src: 'https://compote.slate.com/images/66168178-3547-4917-8ea9-12938af61a04.jpg?crop=568%2C477%2Cx0%2Cy0&width=840',
     }, 
     {
       icon: "",
-      title: "Supported Living Program",
+      title: "Community Integration Activities",
       description:
-        "In our Supported Living Program, individuals receive tailored care within homes that reflect their preferences, needs, and personal goals.",
+        "We believe in full community inclusion. Individuals are supported to participate in activities they enjoy, from shopping trips and movie nights to local events and social gatherings. Our staff assist with planning weekly outings based on personal preferences, and we make every effort to facilitate community engagement that is age-appropriate, respectful, and empowering.",
       badge: "Feature text",
       badgeColor: "bg-purple-500",
+      src: 'https://seniorsrights.org.au/wp-content/uploads/2021/04/SRV-working-with-older-people-thumbnail.jpg',
     },
     {
       icon: "",
-      title: "Individualized Support Planning (ISP/PCISP)",
+      title: "Financial and Rights Support",
       description:
-        "At the heart of our approach is the Person-Centered Individualised Support Plan (PCISP), a dynamic, living document developed collaboratively with the individual, their family, legal representatives, and support team.",
+        "Respecting and protecting individual rights is at the core of what we do. We provide assistance with budgeting, shopping, and money management only as needed and as outlined in each individual’s PCISP. Individuals maintain control over their funds and may choose to receive additional support through a Representative Payee if applicable.",
       badge: null,
-    }
+      src: 'https://plus.unsplash.com/premium_photo-1683140583875-60f4c8f6290e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGFwcHklMjBvbGQlMjBwZW9wbGV8ZW58MHx8MHx8fDA%3D',
+    },
+    
   ];
   return (
   <section className='bg-[#FCFCFC] pt-6' id="Features">
@@ -43,8 +47,10 @@ export default function Goals() {
               <div className="absolute inset-0 bg-black bg-opacity-20"></div>
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-full h-full bg-cover bg-center" style={{
-                  backgroundImage: 'linear-gradient(45deg, #10b981 0%, #3b82f6 100%)'
+                  backgroundImage: `url(${feature.src})`,
+                  backgroundSize: 'cover',
                 }}>
+                  <div className="absolute inset-0 bg-black/20 bg-opacity-40"></div>
                   <div className="w-full h-full flex items-center justify-center">
                     <div className="text-center">
                       <div className="w-16 h-16 bg-white bg-opacity-20 rounded-full mx-auto mb-4 flex items-center justify-center">

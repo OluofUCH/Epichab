@@ -4,17 +4,20 @@ import Link from "next/link";
 export default function Team() {
   return (
     <div className="bg-gray-50 pt-[0rem]">
+      <section className="relative min-h-[80dvh] bg-[url('https://bacp-web-live-endpoint.azureedge.net/cache/1/b/e/1/5/5/1be1557b7eedf235f7aed2fbe5fdc88b8ebca8f7.jpg')] bg-cover bg-center flex items-center justify-center text-white">
+  <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/40"></div>
+  <div className="relative z-10 text-center px-8">
+    <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-wide">
+      Our team
+    </h1>
+    <p className="text-xl md:text-2xl font-light max-w-2xl mx-auto leading-relaxed">
     
-      <section className="relative min-h-[80dvh] bg-gradient-to-br from-blue-900/90 via-blue-800/80 to-blue-600/70 flex items-center justify-center text-white">
-        <div className="absolute inset-0  bg-opacity-30"></div>
-        <div className="relative z-10 text-center px-8">
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-wide">
-            Our team
-          </h1>
-          <p className="text-xl md:text-2xl font-light max-w-2xl mx-auto leading-relaxed">
-          Meet the People Behind the Mission</p>
-        </div>
-      </section> 
+            Meet the People Behind the Mission
+            </p>
+  </div>
+</section>
+
+     
       
       {/* Main Content */}
       <main className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 py-0 sm:pb-[1.62rem]">

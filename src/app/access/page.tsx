@@ -6,18 +6,18 @@ export default function AccessibilityPrivacy() {
   return (
     <div className="bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 min-h-screen pt-[0rem]">
     
-    
-        <section className="relative min-h-[80dvh] bg-gradient-to-br from-blue-900/90 via-blue-800/80 to-blue-600/70 flex items-center justify-center text-white">
-        {/* <div className="absolute inset-0  bg-opacity-30"></div> */}
-        <div className="relative z-10 text-center px-8">
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-wide">
+     <section className="relative min-h-[80dvh] bg-[url('https://bacp-web-live-endpoint.azureedge.net/cache/1/b/e/1/5/5/1be1557b7eedf235f7aed2fbe5fdc88b8ebca8f7.jpg')] bg-cover bg-center flex items-center justify-center text-white">
+  <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/40"></div>
+  <div className="relative z-10 text-center px-8">
+    <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-wide">
            Privacy
           </h1>
           <p className="text-xl md:text-2xl font-light max-w-2xl mx-auto leading-relaxed">
            Transparency, Inclusiveness & Compliance
           </p>
-        </div>
-      </section>
+  </div>
+</section>
+       
       
       {/* Main Content */}
       <main className="max-w-full flex-center justify-center mx-auto px-2 sm:px-6 lg:px-8 py-0 sm:pb-[1.62rem]">
