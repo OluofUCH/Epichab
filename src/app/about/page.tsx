@@ -12,7 +12,7 @@ const About = () => {
       Who we are
     </h1>
     <p className="text-xl md:text-2xl font-light max-w-2xl mx-auto leading-relaxed">
-      We are committed to providing exceptional healthcare services that connect people and places across Nigeria and beyond.
+      We are committed to providing exceptional healthcare services that connect people and places across the world.
     </p>
   </div>
 </section>
@@ -64,7 +64,7 @@ const About = () => {
           <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">
             Our Core Values
           </h2>
-          <div className="grid md:grid-cols-3 2xl:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {/* Excellence */}
             <div className="bg-white rounded-lg p-8 shadow-md hover:shadow-xl transition-shadow">
               <div className="flex items-center mb-6">

@@ -56,11 +56,6 @@ const Careers: React.FC = () => {
       icon: "🎯",
       description: "The Executive Director manages day-to-day operations of our Family Supports Program and Supported Living Services. They supervise Program Directors, ensure PCISP compliance, review incident reports, and lead organisational training and compliance activities."
     },
-    {
-      title: "CEO",
-      icon: "👑",
-      description: "The CEO leads the organisation with vision and accountability, overseeing all programs, growth initiatives, policy compliance, and staff performance. Responsibilities include supervising senior leaders, ensuring quality service delivery, and upholding all federal and state regulatory standards."
-    }
   ];
 
   const benefits = [
@@ -290,7 +285,7 @@ const Careers: React.FC = () => {
                     <Phone className="w-5 h-5 text-blue-600 mr-2" />
                     Phone Support
                   </h4>
-                  <p className="text-blue-700 font-semibold">+234-040-1-234-5678</p>
+                  <p className="text-blue-700 font-semibold">+44-040-1-234-5678</p>
                   <p className="text-gray-600 text-sm mt-2">Monday – Friday: 9:00 AM – 5:00 PM</p>
                 </div>
 
@@ -300,9 +295,9 @@ const Careers: React.FC = () => {
                     Head Office
                   </h4>
                   <div className="text-gray-700">
-                    <p>123 Epichab Way</p>
-                    <p>Abuja, Dutse International Airport</p>
-                    <p>Nigeria</p>
+                    <p>266 Swan Rd Old Fort,</p>
+                    <p>Tennessee(TN), 37362</p>
+                    <p>US</p>
                   </div>
                 </div>
 
