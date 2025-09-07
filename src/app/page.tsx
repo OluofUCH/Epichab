@@ -19,7 +19,7 @@ export default function Home() {
       <Action />
       <Aboutus />
       <Gell />
-      <Vision />
+      {/* <Vision /> */}
       <Goals />
       <StatisticsSection />
       <PartnersSection />

@@ -91,7 +91,7 @@ export default function Header() {
               <Link
                 key={index}
                 href={navItem.path}
-                className={`${pathname === navItem.path ? "text-blue-500 " : "text-white" }text-xl font-medium hover:text-teal-100 transition-colors duration-200`}
+                className={`${pathname === navItem.path ? "text-blue-500 " : "text-white" } text-xl font-medium hover:text-teal-100 transition-colors duration-200`}
                 onClick={(e) => {
                   e.preventDefault();
                   scrollToPath({ path: navItem.path });

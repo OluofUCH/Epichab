@@ -4,7 +4,7 @@ export default function Action() {
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
       {/* Background with green gradient overlay */}
-      <div className="absolute inset-0 bg-[url('https://bacp-web-live-endpoint.azureedge.net/cache/1/b/e/1/5/5/1be1557b7eedf235f7aed2fbe5fdc88b8ebca8f7.jpg')] bg-cover bg-center">
+      <div className="absolute inset-0 bg-[url('https://www.ashleycourtcare.co.uk/wp-content/uploads/2018/10/Senior-and-Elderly-Care-Living-Options.jpg')] bg-cover bg-center">
           <div className="absolute inset-0 bg-black/50 bg-opacity-80"></div>
         {/* Organic pattern overlay */}
         <div className="absolute inset-0 opacity-30">
@@ -43,7 +43,7 @@ export default function Action() {
       {/* Main content container */}
       <div className="relative z-10 flex flex-col justify-center items-start min-h-[80dvh] py-0 px-8 md:px-16 lg:px-24">
         {/* Logo */}
-        <div className="mb-8 flex items-center">
+        {/* <div className="mb-8 flex items-center">
           <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center mr-3">
             <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
               <div className="w-4 h-4 bg-yellow-400 rounded-full"></div>
@@ -55,7 +55,7 @@ export default function Action() {
               EPIC HAB SOLUTIONS
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Main heading */} 
         <div className="">

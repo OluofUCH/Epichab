@@ -34,7 +34,7 @@ const ContactUs: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-       <section className="relative min-h-[80dvh] bg-[url('https://bacp-web-live-endpoint.azureedge.net/cache/1/b/e/1/5/5/1be1557b7eedf235f7aed2fbe5fdc88b8ebca8f7.jpg')] bg-cover bg-center flex items-center justify-center text-white">
+       <section className="relative min-h-[80dvh] bg-[url('https://www.ashleycourtcare.co.uk/wp-content/uploads/2018/10/Senior-and-Elderly-Care-Living-Options.jpg')] bg-cover bg-center flex items-center justify-center text-white">
   <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/40"></div>
   <div className="relative z-10 text-center px-8">
     <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-wide">

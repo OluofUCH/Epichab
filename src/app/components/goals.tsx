@@ -30,8 +30,8 @@ export default function Goals() {
     },
     
   ];
-  return (
-  <section className='bg-[#FCFCFC] pt-6' id="Features">
+  return ( 
+  <div className='bg-[#FCFCFC] px-2 md:px-16 2xl:px-48 pt-6' id="Features">
       <div className="pb-[2.62rem] flex flex-col gap-[40px]">
       <div className="flex w-fit justify-start items-center px-4 py-[8px]  rounded-[8px] border border-[#E4E4E7] bg-[#F4FFFF] shadow-[0px_1px_3px_0px_rgba(25,33,61,0.10)]">
             <h2 className="sm:text-sm text-[14px] font-medium text-gray-600 uppercase tracking-wide">
@@ -83,6 +83,6 @@ export default function Goals() {
       </div>
       
        
-    </section>
+    </div>
   );
 }
